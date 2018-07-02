@@ -10,7 +10,7 @@ public class Hash {
     static String getMD5(String t){
         if (t.equals("")){
             return null;
-            //test mmm
+            //test mmm222
         }else {
             MessageDigest m = null;
             try {
