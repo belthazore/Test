@@ -9,7 +9,8 @@ public class Hash {
 
     static String getMD5(String t){
         if (t.equals("")){
-            return "empty";
+            return null;
+            //test mmm
         }else {
             MessageDigest m = null;
             try {
